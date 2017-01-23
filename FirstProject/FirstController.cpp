@@ -1,16 +1,16 @@
 //
-//  FirstRunner.cpp
+//  FirstController.cpp
 //  FirstProject
 //
 //  Created by Kunz, Geran on 1/23/17.
 //  Copyright © 2017 Kunz, Geran. All rights reserved.
 //
 
+#include <iostream>
 #include "FirstController.h"
+using namespace std;
 
-int main()
+void FirstController :: start()
 {
-    FirstController * app = new FirstController();
-    app->start();
-    return 0;
+    cout << "words go here" << endl;
 }
